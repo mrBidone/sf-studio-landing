@@ -67,10 +67,9 @@ body {
   font-size: 15px;
   color: #ffffff;
   background-color: rgb(36, 51, 82);
-  /* background-image: url("../img/mob/bg-mob.webp"); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url("../img/desk/bg.jpg");
+  background-repeat: repeat;
+  background-size: 187px auto;
 }
 
 .section-wrapper {
