@@ -88,6 +88,12 @@ body {
   justify-content: center;
 }
 
+.page-logo,
+.page-logo-icon {
+  width: 170px;
+  height: 89px;
+}
+
 .page-nav-list {
   display: flex;
   flex-direction: column;
@@ -105,4 +111,45 @@ body {
   font-size: 13px;
   line-height: 1.61538;
   color: rgba(255, 255, 255, 0.4);
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 768px;
+  }
+
+  .section {
+    padding: 90px 0 139px 0;
+  }
+
+  .page-header {
+    padding: 253px 0 97px 0;
+  }
+  .page-logo,
+  .page-logo-icon {
+    width: 331px;
+  }
+
+  .page-nav-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 38px;
+  }
+
+  .nav-link {
+    transition: color 250ms linear;
+  }
+
+  .nav-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: center;
+    padding: 139px 0 126 px 0;
+    font-size: 14px;
+  }
 }
