@@ -69,7 +69,7 @@ body {
   background-color: rgb(36, 51, 82);
   background-image: url("../img/desk/bg.jpg");
   background-repeat: repeat;
-  background-size: 187px auto;
+  /* background-size: 187px auto; */
 }
 
 .section-wrapper {
@@ -116,6 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
   padding-bottom: 68px;
   font-weight: 400;
   font-size: 13px;
@@ -160,7 +161,7 @@ body {
   .footer {
     flex-direction: row;
     justify-content: center;
-    padding: 139px 0 126 px 0;
+    padding: 139px 0 126px 0;
     font-size: 14px;
   }
 }
